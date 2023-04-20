@@ -1,14 +1,26 @@
 # dbms
-![table1](https://user-images.githubusercontent.com/126655509/233074873-f508a0a4-af2d-40ff-8011-28a5ab669f06.png)
-![table 1_updatequary](https://user-images.githubusercontent.com/126655509/233074936-50f9637f-88ec-4642-bd63-f14eb2fdad78.png)
-![table _1 output_data](https://user-images.githubusercontent.com/126655509/233075018-482c2f4f-3fe4-41f0-9f65-0b06d4310f91.png)
-![table_2 insertquary](https://user-images.githubusercontent.com/126655509/233075091-a9d4ac60-dac5-4297-ba5a-bfebb4f2b70b.png)
-![table_2 active 5 customer](https://user-images.githubusercontent.com/126655509/233075206-e2fb5141-965b-42ff-a66f-159d9248c79f.png)
-![table 2 output_data](https://user-images.githubusercontent.com/126655509/233075266-89e331c0-d887-408b-a773-491268c44c35.png)
-![table_3 insertquary](https://user-images.githubusercontent.com/126655509/233075366-d904fe11-d394-4041-b7ec-1b910a11cb2e.png)
-![table_3 output_data](https://user-images.githubusercontent.com/126655509/233075408-5da449b8-60bb-43e8-b3c4-036d765fd0ad.png)
-![table_4 insertquary selectquary](https://user-images.githubusercontent.com/126655509/233075486-49611d71-9604-42e2-9544-e4448cac4d25.png)
-![table 4 output_data](https://user-images.githubusercontent.com/126655509/233075549-6ff237c1-9af6-49e3-ab13-0f7b2bd3019a.png)
-![active_status ,hom_address quary](https://user-images.githubusercontent.com/126655509/233075586-a5259982-3da7-4262-abdf-35a66d9969dd.png)
-![Screenshot 2023-04-19 175103](https://user-images.githubusercontent.com/126655509/233075650-f39c6c71-6b1d-42d6-9d66-20d6be655004.png)
+1.• insert 10 customer records. Each customer should have a minimum of 2-3 address records with different address types. Each customer record id should be mapped as foreign key in the customer address table. All insert scripts should be mentioned in a single SQL file and table data snippet should be taken for the proof.
+
+![Screenshot 2023-04-20 111603](https://user-images.githubusercontent.com/126655509/233269444-d2a19745-f80e-45c6-9467-f8df3f3385aa.png)
+
+2.Write select query to pull data from customer table. Record the script and take a snippet of output.
+
+![Screenshot 2023-04-20 111956](https://user-images.githubusercontent.com/126655509/233270234-b1beaf8e-4861-4744-8f3f-83ffac9b8da3.png)
+
+3.Update top 5 customer status as Deleted from Active & also update modified time as well.
+
+![Screenshot 2023-04-20 110432](https://user-images.githubusercontent.com/126655509/233270632-479c55c1-8a42-41f0-9621-3ba701e580c6.png)
+
+4.Write select query to pull only an active status customer
+
+![Screenshot 2023-04-20 112804](https://user-images.githubusercontent.com/126655509/233271447-2abe07a0-525f-43ca-9501-5e0af5959366.png)
+
+5.Write query to pull all active customers with only the home address type address record.
+
+![Screenshot 2023-04-20 110504](https://user-images.githubusercontent.com/126655509/233271622-64c82c46-1e52-407f-940c-7131733f5618.png)
+
+6.let's consider customer is creating orders. Each order must have one or more items. Basically write insert statements with proper order items. Create orders only for half of the customers.
+
+![Screenshot 2023-04-20 105444](https://user-images.githubusercontent.com/126655509/233271909-b85bc47d-ec77-4341-94bb-8d32074c7edc.png)
+
 
